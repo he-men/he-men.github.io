@@ -13,8 +13,8 @@ p {
   font-family: monospace;
   font-size: 14px;
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
 
@@ -37,19 +37,24 @@ iframe {
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* -- TopNavigation -- */
+.topNavigation {
+  display: contents;
+  /* float: right; */
+  }
 
 .topNavigation ul {
-  float: right;
-  display:contents;
+
+ display:contents;
 }
+
 .topNavigation a {
-  float: right;
   display:contents;
-  color: dimgray;
+   color: dimgray;
+
 }
 
 .button {
