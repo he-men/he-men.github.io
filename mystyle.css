@@ -1,29 +1,28 @@
 body {
   background-color: lightgray;
-  align-items: center;
 }
-h1 {
-  font-family: monospace;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: verdana,sans-serif;
+  font-weight: bold;
   color: slateblue;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 p {
-  font-family: monospace;
+  font-family: georgia, serif;
   font-size: 14px;
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
-
 }
 
 img {
-  display:block;
-  justify-content: center;
-  align-items: center;
+  display:flex;
   height: 70%;
   width: 70%;
   margin: auto;
@@ -33,35 +32,51 @@ img {
 }
 
 iframe {
-  display:block;
-  justify-content: center;
-  align-items: center;
+  display:flex;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
+
+/* Styling the button */
+.button {
+  /* Centering */
+  margin: auto;
+  padding: 12px 20px;
+  cursor: pointer;
+  color: lightgray;
+  border: none;
+  background-color: slateblue;
+}
+
+/* For parent div element, to center button */
+.center{
+  text-align: center;
+}
+
+#loremStyle {
+  font-family: monospace;
+  text-align: left;
+}
+
 /* -- TopNavigation -- */
 .topNavigation {
-  display: contents;
-  /* float: right; */
-  }
+  float: right;
+  /* Remove bullets */
+  list-style-type: none;
+  /* Remove browser default settings */
+  margin: 0;
+  padding: 0;
+}
 
-.topNavigation ul {
-
- display:contents;
+.topNavigation li{
+  /* Show in a row */
+  display: inline;
+  padding: 50px;
 }
 
 .topNavigation a {
+  /* Remove underline */
   display:contents;
-   color: dimgray;
-
-}
-
-.button {
-    padding: 12px 20px;
-    cursor: pointer;
-    color: lightgray;
-    border: none;
-    background-color: slateblue;
-
+  color: dimgray;
 }
