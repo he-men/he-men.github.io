@@ -23,20 +23,25 @@ p {
 
 img {
   display:flex;
-  height: 70%;
-  width: 70%;
+  width: 720px;
+  height: 720px;
+  max-width: 100%;
+  height: auto;
   margin: auto;
-  padding-left: 100px;
-  padding-right: 100px;
 
 }
 
 iframe {
-  display:flex;
-  margin: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 800px;
+  height: 400px;
+  allowfullscreen;
+}
 
+footer {
+  padding: 10px;
+  text-align: right;
+  color: slateblue;
+  font-size: 12px;
 }
 
 /* Styling the button */
@@ -78,6 +83,10 @@ iframe {
 
 .topNavigation a {
   /* Remove underline */
-  display:contents;
-  color: dimgray;
+  text-decoration: none;
+  color: slateblue;
+}
+
+.video {
+  text-align: center;
 }
